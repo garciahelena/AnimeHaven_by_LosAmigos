@@ -1,13 +1,34 @@
 @font-face {
     font-family: 'Aboreto';
-    src: url("../fonts/Aboreto/Aboreto-Regular.") format('truetype');
+    src: url("../fonts/Aboreto-Regular.woff2") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Abril Fatface';
-    src: url(../fonts\Aboreto,Abril_Fatface,Aclonica,Adamina,Rampart_One\Abril_Fatface\AbrilFatface-Regular.ttf);
+    src: url("../fonts/AbrilFatface-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aclonica';
+    src: url("../fonts/Aclonica-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adamina';
+    src: url("../fonts/Adamina-Regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RampartOne';
+    src: url(../fonts/RampartOne-Regular.woff2);
     font-weight: normal;
     font-style: normal;
 }
