@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Aboreto';
+    src: url("../fonts/Aboreto/Aboreto-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url(../fonts\Aboreto,Abril_Fatface,Aclonica,Adamina,Rampart_One\Abril_Fatface\AbrilFatface-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
