@@ -45,10 +45,10 @@ div .logo {
     cursor: pointer;
 }
 
-nav ul li {
-    text-decoration: none;
+nav ul {
+    list-style-type: none;
 }
-nav ul li a {
+nav .NavBar ul li a {
     text-decoration: none;
     color: #000000;
     font-family: 'Aclonica';
@@ -57,4 +57,49 @@ nav ul li a {
     background-color: #FFDCBA;
     border-radius: 50px;
     align-items: center;
+    padding: 12px;
+    margin: 34px 68px;
+
+    
+
+}
+
+footer{
+    background-color: #FFDCBA;
+}
+
+footer .logo{
+    display: flex;
+    flex-direction: column;
+    justify-self: self-end;
+    text-align: center;
+    padding-right: 30px;
+}
+
+address{
+    justify-self: self-end;
+    justify-content: right;
+}
+
+footer li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+
+}
+
+footer a{
+    text-decoration: none;
+    color:#000000;
+}
+
+footer #copyright{
+    font-size: 8px;
+    text-align: center;
+    padding: 15px 80px;
 }

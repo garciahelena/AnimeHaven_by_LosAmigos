@@ -16,17 +16,10 @@ DESCRIPTION: Anime Haven About Page
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    <link rel="stylesheet" href="css\fonts.css">
     <link rel="stylesheet" href="css\about.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Aclonica&family=VT323&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Aclonica&family=VT323&display=swap"
-        rel="stylesheet">
+    
+    
 
     <title>About Anime Haven</title>
 
@@ -35,7 +28,7 @@ DESCRIPTION: Anime Haven About Page
 <body>
 
     <!-- Navigation bar-->
-    <nav>
+    <nav class = "NavBar">
 
         <div class="logo">
 
@@ -108,8 +101,12 @@ DESCRIPTION: Anime Haven About Page
     <!-- Footer, general links of the shop, address of the shop-->
 
     <footer>
-        <h2 class="logo">Anime <span>Haven</span></h2>
-        <p>From a Fan to a Fan</p>
+        <div class="logo">
+
+            <h1 class="logo">Anime<br><span>Haven</span></h1>
+
+            <p>From a Fan to a Fan</p>
+        </div>
         <address>
             TUD Grangegorman, <br>
             Dublin 7, <br>
@@ -117,12 +114,15 @@ DESCRIPTION: Anime Haven About Page
         </address>
 
 
-        <ul>
-            <li><a href="shopping.html">Shopping</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="list.html">Lists</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
-        </ul>
+        <nav class = "FooterNav">
+
+            <ul>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="list.html">Lists</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
 
         <p id="copyright">&copy; 2025 Anime Haven by Los Amigos</p>
     </footer>
