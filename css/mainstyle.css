@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
     display: flex;
     flex-direction: row;
@@ -29,3 +30,17 @@ div .logo {
 .logo:hover {
     cursor: pointer;
 }
+=======
+.navBar {
+    background-color: orange;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.navBar li{
+    display: inline;
+    text-decoration: none;
+}
+>>>>>>> 2f9967fc5439814cba44504f1e18392e80caa4f4
