@@ -13,10 +13,10 @@ body {
     height: 1233;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
-   
+
 }
 
 div .logo {
@@ -45,6 +45,9 @@ div .logo {
     cursor: pointer;
 }
 
+nav ul li {
+    text-decoration: none;
+}
 nav ul li a {
     text-decoration: none;
     color: #000000;
@@ -54,5 +57,4 @@ nav ul li a {
     background-color: #FFDCBA;
     border-radius: 50px;
     align-items: center;
-
 }
