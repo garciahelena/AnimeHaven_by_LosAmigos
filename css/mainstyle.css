@@ -1,4 +1,4 @@
-div .logo {
+/*div .logo {
 
     padding: 30px;
 
@@ -23,6 +23,11 @@ div .logo {
 .logo:hover {
     cursor: pointer;
 }
+*/ 
+
+body {
+    background-color: #FF7134;
+}
 
 .navBar {
     background-color: orange;
@@ -30,10 +35,18 @@ div .logo {
 }
 
 .navBar li{
+    font-family: 'Aclonica';
+    background-color: #FFDCBA;
+    border: solid, #FFDCBA;
+    border-radius: 30px;
     display: inline;
+    padding: 20px;
+}
+
+.navBar li a{
     text-decoration: none;
 }
 
-body {
-    font-family: 'Aboreto';
+.logo1 li {
+    border: none;
 }
