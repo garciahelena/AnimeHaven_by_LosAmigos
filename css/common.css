@@ -1,52 +1,57 @@
-/*div .logo {
-
-    padding: 30px;
-
-
-    font-size: 18;
-    color: white;
-    -webkit-text-stroke: 2px #4D3333;
-    paint-order: stroke fill;
-
-
-
-}
-
-.logo span {
-    color: black;
-    -webkit-text-stroke: 2px #4D3333;
-    paint-order: stroke fill;
-
-
-}
-
-.logo:hover {
-    cursor: pointer;
-}
-*/ 
-
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: #FF7134;
 }
 
-.navBar {
-    background-color: orange;
-    padding: 10px;
+nav {
+    padding: 30px;
+    margin-top: 0px;
 }
 
-.navBar li{
+nav img {
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -15px;
+}
+
+nav a {
     font-family: 'Aclonica';
     background-color: #FFDCBA;
     border: solid, #FFDCBA;
     border-radius: 30px;
     display: inline;
-    padding: 20px;
-}
-
-.navBar li a{
+    padding: 17px;
+    margin-left: 50px;
     text-decoration: none;
 }
 
-.logo1 li {
-    border: none;
+.search-container{
+    margin-top: -5px;
+    float: right;
 }
+
+.search-container input[type = text]{
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    margin-left: 0px;
+}
+
+.search-container button{
+    float: right;
+    margin-right: 0px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.search-container button img{
+    padding: 0px;
+    height: 26px;
+    width: 25px;
+    margin-bottom: 0px;
+}
+
+

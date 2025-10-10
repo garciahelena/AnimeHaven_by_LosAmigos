@@ -1,0 +1,30 @@
+.card {
+    background-color: #FFD005;
+    margin: auto;
+    width: 65%;
+    display: block;
+    border: solid, #FFD005;
+    border-radius: 30px;
+    
+}
+
+.card img {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.card h1{
+    display: inline;
+    float: right;
+}
+
+.card h2{
+    display: inline;
+    float: right;
+}
+
+.card button{
+    display: inline;
+    float: right;
+}
