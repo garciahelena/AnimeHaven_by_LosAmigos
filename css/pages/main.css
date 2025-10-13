@@ -15,16 +15,15 @@
 }
 
 .card h1{
-    display: inline;
-    float: right;
+    display: block;
 }
 
 .card h2{
-    display: inline;
-    float: right;
+    display: block;
+    
 }
 
 .card button{
-    display: inline;
-    float: right;
+    display: block;
+    
 }
