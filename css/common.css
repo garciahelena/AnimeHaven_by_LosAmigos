@@ -11,9 +11,9 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 4vw;
     background-color:  #FF7134;
+    gap: 2rem;
     
 }
-
 
 nav a {
     font-family: 'Aclonica';
@@ -25,9 +25,8 @@ nav a {
     border-radius: 2rem;
     padding: 0.6em 1.2em;
     margin-left: 0 1em;
+    gap: 4rem;
 }
-
-
 
 .search-container{
     display: flex;
