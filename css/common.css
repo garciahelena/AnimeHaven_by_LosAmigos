@@ -5,6 +5,7 @@ body {
     font-size: 16px;
 }
 
+/* CSS for NavBar */
 nav {
     display: flex;
     align-items: center;
@@ -39,7 +40,6 @@ nav a {
     padding: 0.4em 0.8em;
     font-size: 1rem;
     border: none;
-    margin-left: 0px;
 }
 
 .search-container button{
@@ -65,3 +65,4 @@ nav a {
     margin: 0;
     vertical-align: middle;
 }
+/*End CSS for NavBar */

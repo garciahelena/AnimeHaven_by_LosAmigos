@@ -1,29 +1,58 @@
 .card {
+    display: flex;
+    gap: 2rem;
     background-color: #FFD005;
     margin: auto;
     width: 65%;
-    display: block;
     border: solid, #FFD005;
-    border-radius: 30px;
+    border-radius: 2rem;
     
 }
 
 .card img {
-    display: inline-block;
-    margin: 10px;
+    flex: 1;
+    max-width: 60%;
+    height: auto;
+    margin: 2rem;
+    object-fit: cover;
     
 }
 
-.card h1{
-    display: block;
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 
-.card h2{
+.card-content h1{
     display: block;
+    font-family: 'Abril Fatface';
+    font-size: 5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.card-content h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 'Aclonica';
     
 }
 
-.card button{
-    display: block;
-    
+.card-content button{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 2rem;
+    background-color: #FF0000;
+    color: white;
+    font-size: 2rem;
+    padding: 0.4em 0.8em;
+    font-family: 'Adamina';
+    font-weight: bold;
+}
+
+.card-content a{
+    text-decoration: none;
 }
