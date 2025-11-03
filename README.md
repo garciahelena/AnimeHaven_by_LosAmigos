@@ -24,7 +24,9 @@ Julia Davies
 
 📂 Pages
 
-🏠 index.html – The home page introduces the website and showcases featured or popular anime titles.
+🏠 index.html – The home page introduces the website and showcases featured or popular anime titles. 
+
+🛍️ shop.html - A shop page showing some of the different catergories that are available in the online store 
 
 ℹ️ about.html – A page describing the Anime Haven roots, the owner, and their recommendations for anime and merchandise.
 
