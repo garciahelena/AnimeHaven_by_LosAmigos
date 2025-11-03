@@ -11,8 +11,8 @@ The website aims to showcase a collection of anime series while providing users 
 Anime Haven is a three-page static website designed to showcase creativity, teamwork, and fundamental design principles. 
 The project focuses on building a clean, responsive layout using only HTML and CSS, without relying on JavaScript frameworks or libraries.
 
-👥 Team
 
+👥 Team
 
 Name
 
