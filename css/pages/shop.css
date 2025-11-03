@@ -1,0 +1,52 @@
+h3 {
+    background-color: #FFDCBA;
+    text-align: center;
+    font-family: 'Aclonica';
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+h4 { 
+    font-family: 'Aclonica';
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+.shop-categories {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.shop-categories img {
+    width: 13vw;          
+    height: 13vw;              
+    border-radius: 60%;
+    object-fit: cover;
+
+}
+
+.shop-categories a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-categories h5{
+    border: none;
+    background-color:  #FFD005;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Aclonica';
+    padding: 1rem;
+}
+
+.image-banner img{
+    width: 100%;
+    height: auto;         
+    display: block;       
+    object-fit: cover;
+}
