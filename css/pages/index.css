@@ -1,5 +1,6 @@
 .card {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     background-color: #FFD005;
     margin: auto;
@@ -25,22 +26,24 @@
     flex: 1;
 }
 
-.card-content h1{
+.card-content h1 {
     display: block;
     font-family: 'Abril Fatface';
     font-size: 5rem;
     line-height: 1.1;
     margin-bottom: 1rem;
+    word-wrap: break-word;
 }
 
-.card-content h2{
+.card-content h2 {
     display: flex;
     flex-wrap: wrap;
     font-size: 'Aclonica';
+    word-wrap: break-word;
     
 }
 
-.card-content button{
+.card-content button {
     display: flex;
     flex-wrap: wrap;
     border: none;
@@ -53,6 +56,21 @@
     font-weight: bold;
 }
 
-.card-content a{
+.card-content a {
     text-decoration: none;
+}
+
+.banner {
+    background-color: #FF0000;
+    padding: 0.4em 0.8em;
+}
+
+.banner h3 {
+    color: white;
+    font-family: 'Aclonica';
+    text-align: center;
+}
+
+.japanese-text {
+    font-family: 'RampartOne';
 }

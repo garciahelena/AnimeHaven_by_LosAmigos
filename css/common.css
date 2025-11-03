@@ -29,26 +29,26 @@ nav a {
     gap: 4rem;
 }
 
-.search-container{
+.search-container {
     display: flex;
     margin-left: auto;
     align-items: center;
     border: solid, black;
 }
 
-.search-container input[type = text]{
-    padding: 0.4em 0.8em;
+.search-container input[type = text] {
+    padding: 0.4em 0.8em; 
     font-size: 1rem;
     border: none;
 }
 
-.search-container button{
+.search-container button {
     border: none;
     cursor: pointer;
    
 }
 
-.search-container button img{
+.search-container button img {
     height: 1.825rem;
     width: 1.8rem;
     vertical-align: middle;
@@ -59,7 +59,7 @@ nav a {
     border: none; 
 }
 
-.logo img{
+.logo img {
     height: 2.5rem;
     padding: 0;
     margin: 0;
