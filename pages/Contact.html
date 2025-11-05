@@ -1,59 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+
     <title>Anime Haven - Contact me</title>
 
 </head>
+
 <body>
-     <nav>
 
+    <nav>
         <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+        </div>
+        <a href="pages/shop.html">Shop</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/Contact.html">Contact us!</a>
+        <form class="search-container">
+            <input type="text" placeholder="Search..">
+            <button type="submit" placeholder="Submit"><img src="images/search_icon.png" alt="Submit"></button>
+        </form>
+    </nav>
 
-            <h1 class="logo">Anime<span>Haven</span></h1>
 
+    <h2>Contact me</h2>
+    <hr>
+    <p>If you have any questions for me or want to ask me personally for anime suggestions, feel free to contact me
+        here!</p>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    <br>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    <br>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    <br>
+
+    <button type="submit">Send Message</button>
+    <br>
+    <img src="Images/ContactUs_images/Sofia.jpeg" alt="portrait of Sofia" width=300, length=500></img>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- Left column: Links -->
+        <div class="footer-section">
+            <ul>
+                <li><a href="shopping.html">SHOPPING</a></li>
+                <li><a href="reviews.html">REVIEWS</a></li>
+                <li><a href="list.html">LISTS</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+            </ul>
         </div>
 
-        <ul>
-            <li><a href="index.html">Explore</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="Contact.html">Contact Us</a></li>
-        </ul>
+        <!-- Right column: Logo and Info -->
+        <div class="footer-section">
+            <h2 class="logo">ANIME<span>HAVEN</span></h2>
+            <p>FROM A FAN TO A FAN</p>
+            <address>
+                ANIME HAVEN,<br>
+                GRANGEGORMAN LOWER,<br>
+                GRANGEGORMAN,<br>
+                DUBLIN 7
+            </address>
+        </div>
 
-        <form action="search.html" method="get">
-            <input type="text" placeholder="Search" name="Search">
-            <button type="submit">
-                <span class="material-symbols-outlined">search </span>
-            </button>
-        </form>
-
-    </nav>
-        <h2>Contact me</h2>
-        <hr>
-        <p>If you have any questions for me or want to ask me personally for anime suggestions, feel free to contact me here!</p>
-
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <br>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <br>
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                <br>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                <br>
-
-        <button type="submit">Send Message</button>
-        <br>
-        <img src="Images/ContactUs_images/Sofia.jpeg" alt="portrait of Sofia" width=300, length=500></img>
+        <div id="copyright">
+            &copy; 2025 Anime Haven by Los Amigos
+        </div>
+    </footer>
 
 </body>
+
 </html>
-
-
