@@ -8,6 +8,10 @@
     --font-main: Arial, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* General Styling */
 body {
     padding: 0px;
@@ -15,6 +19,7 @@ body {
     background-color: var(--orange);
     font-size: 16px;
     font-family: var(--font-main);
+    color: black;
 }
 
 /* Navigation Bar */

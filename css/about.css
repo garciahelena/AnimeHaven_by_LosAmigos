@@ -1,18 +1,6 @@
 /* ========================================
    ANIME HAVEN - ABOUT PAGE
    ======================================== */
-html {
-    font-family: var(--font-main);
-    background-color: var(--orange);
-    color: var(--black);
-    font-size: 16px;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 /* ========== ABOUT ME SECTION ========== */
 .AboutMe {
