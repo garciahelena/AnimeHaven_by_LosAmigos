@@ -91,20 +91,3 @@ p {
     transform: scale(1.05);
 }
 
-
-/* ---------- BANNER ---------- */
-.banner {
-    background-color: #FF0000;
-    padding: 0.4em 0.8em;
-    margin-top: 3rem;
-}
-
-.banner h1 {
-    color: white;
-    font-family: 'Aclonica';
-    text-align: center;
-}
-
-.japanese-text {
-    font-family: 'Rampart One';
-}
