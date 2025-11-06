@@ -34,7 +34,7 @@ body {
     flex-direction: column;
 }
 
-/* ========== NAVIGATION BAR ========== */
+/* ========== NAVIGATION BAR ========== 
 nav {
     background-color: var(--orange);
     padding: 1rem 3%;
@@ -93,7 +93,7 @@ input:focus {
     outline-offset: 3px;
 }
 
-/* Search bar */
+/* Search bar 
 nav form {
     display: flex;
     align-items: center;
@@ -125,6 +125,7 @@ nav form button {
 nav form button:hover {
     transform: scale(1.1);
 }
+
 
 /* ========== ABOUT ME SECTION ========== */
 .AboutMe {

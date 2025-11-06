@@ -54,9 +54,6 @@ body {
     paint-order: stroke fill;
 }
 
-
-
-/* ========== FOOTER ========== */
 footer {
     background-color: rgba(0, 0, 0, 0.2);
     color: var(--black);
