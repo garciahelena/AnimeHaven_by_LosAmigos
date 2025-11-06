@@ -1,6 +1,6 @@
 
 body {
-    background-color: #fff8dc;
+    background-color: #FF7134;
     font-family: 'Adamina', serif;
     color: #222;
     margin: 0;
@@ -16,14 +16,14 @@ main {
 h2 {
     font-family: 'Abril Fatface';
     font-size: 3rem;
-    color: #FF0000;
+    color: #000000;
     margin-top: 1rem;
 }
 
 hr {
     width: 50%;
     margin: 1rem auto;
-    border: 2px solid #FF0000;
+    border: 2px solid #000000;
     border-radius: 1rem;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .contact-form input:focus, textarea:focus {
-    border-color: #FF0000;
+    border-color: #ff0000;
 }
 
 .contact-form textarea {
@@ -90,4 +90,5 @@ p {
     background-color: #cc0000;
     transform: scale(1.05);
 }
+
 
