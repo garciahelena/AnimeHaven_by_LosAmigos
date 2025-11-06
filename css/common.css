@@ -81,6 +81,8 @@ nav a {
 }
 
 /* Footer */
+
+
 footer {
     background-color: rgba(0, 0, 0, 0.2);
     color: var(--black);
@@ -90,10 +92,6 @@ footer {
     flex-wrap: wrap;
     gap: 4rem;
     text-align: center;
-}
-
-footer img {
-    height: 3rem;
 }
 
 .footer-section:first-child {
@@ -166,4 +164,13 @@ footer address {
     border-top: 1px solid var(--dark-brown);
     font-size: 0.8rem;
     text-align: center;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
