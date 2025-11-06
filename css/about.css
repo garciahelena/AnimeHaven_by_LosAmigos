@@ -1,26 +1,6 @@
 /* ========================================
    ANIME HAVEN - ABOUT PAGE
    ======================================== */
-
-/* 🎨 GLOBAL VARIABLES */
-:root {
-    --orange: #FF7134;
-    --light-orange: #FFD699;
-    --dark-brown: #4D3333;
-    --soft-orange: #FFB27A;
-    --white: #FFFFFF;
-    --black: #000000;
-    --yellow: rgba(255, 208, 5, 0.72);
-    --font-main: Arial, sans-serif;
-}
-
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 html {
     font-family: var(--font-main);
     background-color: var(--orange);
@@ -33,99 +13,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-/* ========== NAVIGATION BAR ========== 
-nav {
-    background-color: var(--orange);
-    padding: 1rem 3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.logo {
-    padding: 1.875rem;
-    font-size: 1.125rem;
-    color: var(--white);
-    -webkit-text-stroke: 2px var(--dark-brown);
-    paint-order: stroke fill;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.logo span {
-    color: var(--black);
-    -webkit-text-stroke: 2px var(--dark-brown);
-    paint-order: stroke fill;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-nav ul li a {
-    color: var(--black);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    background-color: var(--light-orange);
-    transition: all 0.3s ease-in-out;
-}
-
-nav ul li a:hover,
-nav ul li a:focus {
-    background-color: #FFE5B4;
-    transform: translateY(-2px);
-}
-
-a:focus,
-button:focus,
-input:focus {
-    outline: 3px solid var(--light-orange);
-    outline-offset: 3px;
-}
-
-/* Search bar 
-nav form {
-    display: flex;
-    align-items: center;
-    background-color: var(--white);
-    border-radius: 20px;
-    padding: 0.3rem 1rem;
-}
-
-nav form input[type="text"] {
-    border: none;
-    background: transparent;
-    outline: none;
-    padding: 0.4rem;
-    font-size: 0.9rem;
-    width: 150px;
-}
-
-nav form button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 0.3rem;
-    display: flex;
-    align-items: center;
-    color: var(--orange);
-    transition: transform 0.2s ease-in-out;
-}
-
-nav form button:hover {
-    transform: scale(1.1);
-}
-
 
 /* ========== ABOUT ME SECTION ========== */
 .AboutMe {
