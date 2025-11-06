@@ -49,14 +49,14 @@ p {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-label {
+.contact-form label {
     font-family: 'Aclonica';
     font-size: 1.1rem;
     align-self: flex-start;
     margin-left: 15%;
 }
 
-input, textarea {
+.contact-form input, textarea {
     width: 70%;
     padding: 0.6em;
     border: 2px solid #FFD005;
@@ -66,16 +66,16 @@ input, textarea {
     outline: none;
 }
 
-input:focus, textarea:focus {
+.contact-form input:focus, textarea:focus {
     border-color: #FF0000;
 }
 
-textarea {
+.contact-form textarea {
     min-height: 120px;
     resize: vertical;
 }
 
-button[type="submit"] {
+.contact-form button[type="submit"] {
     background-color: #FF0000;
     color: white;
     border: none;
@@ -86,7 +86,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
+.contact-form button[type="submit"]:hover {
     background-color: #cc0000;
     transform: scale(1.05);
 }
