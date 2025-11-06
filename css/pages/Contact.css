@@ -1,0 +1,188 @@
+
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    background-color: #fff8dc;
+    font-family: 'Adamina', serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FF7134;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Aclonica', sans-serif;
+    color: #222;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FF0000;
+}
+
+/* ---------- Search Bar ---------- */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #FF0000;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-left: auto;
+    background-color: white;
+}
+
+.search-container input[type="text"] {
+    border: none;
+    padding: 0.4em 0.8em;
+    font-family: 'Adamina', serif;
+    font-size: 1rem;
+    outline: none;
+    width: 160px;
+}
+
+.search-container button {
+    border: none;
+    background-color: #FF0000;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #cc0000;
+}
+
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    font-family: 'Abril Fatface';
+    font-size: 3rem;
+    color: #FF0000;
+    margin-top: 1rem;
+}
+
+hr {
+    width: 50%;
+    margin: 1rem auto;
+    border: 2px solid #FF0000;
+    border-radius: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1rem auto 2rem;
+    width: 80%;
+    font-family: 'Adamina';
+}
+
+/* ---------- FORM STYLING ---------- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff3b0;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 3px solid #FFD005;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-family: 'Aclonica';
+    font-size: 1.1rem;
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 0.6em;
+    border: 2px solid #FFD005;
+    border-radius: 1rem;
+    font-family: 'Adamina';
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #FF0000;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8em 1.6em;
+    font-size: 1.2rem;
+    font-family: 'Aclonica';
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+
+
+/* ---------- BANNER ---------- */
+.banner {
+    background-color: #FF0000;
+    padding: 0.4em 0.8em;
+    margin-top: 3rem;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Aclonica';
+    text-align: center;
+}
+
+.japanese-text {
+    font-family: 'Rampart One';
+}
