@@ -51,7 +51,7 @@ nav a {
     display: flex;
     margin-left: auto;
     align-items: center;
-    border: solid, black, 1rem;
+    border: solid, black;
 }
 
 .search-container input[type = text] {
