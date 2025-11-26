@@ -177,7 +177,30 @@ footer address {
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
-  
+    nav {
+        flex-wrap: wrap;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.5em 0.5em;
+    }
+
+    .search-container {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-container input {
+        width: 70%;
+    }
+
+    .logo img {
+        height: 2rem;
+    }
 }
 
 /* Tablet (600px - 1024px) */
