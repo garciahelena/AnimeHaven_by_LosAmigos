@@ -175,10 +175,17 @@ footer address {
 }
 
 /* ========== RESPONSIVE DESIGN ========== */
+/* Mobile (0 - 600px) */ 
+@media (max-width: 600px){
+  
+}
 
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        gap: 2rem;
-    }
+/* Tablet (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px){
+
+}
+
+/* Desktop (> 1024px) */
+@media (min-width: 1024px){
+
 }
