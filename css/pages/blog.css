@@ -57,3 +57,19 @@
     object-fit: cover;
     border-radius: 0.5rem;
 }
+.contact-form button[type="submit"] {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8em 1.6em;
+    font-size: 1.2rem;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
