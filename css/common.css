@@ -6,6 +6,8 @@
     --soft-orange: #FFB27A;
     --yellow: rgba(255, 208, 5, 0.72);
     --font-main: Arial, sans-serif;
+    --black: #000;
+    --white: #fff;
 }
 
 * {
@@ -55,7 +57,7 @@ nav a:hover {
     display: flex;
     margin-left: auto;
     align-items: center;
-    border: solid, 1 rem, black;
+    border: 1rem solid black;
 }
 
 .search-container input[type = text] {
@@ -179,6 +181,8 @@ footer address {
 }
 
 /* ========== RESPONSIVE DESIGN ========== */
+
+
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
     /* Nav bar */
@@ -235,5 +239,14 @@ footer address {
     .search-container button img{
         height: 1.4rem;
         width: 1.4rem;
+    }
+
+    footer{
+        padding: 2.5rem 5% 2rem;
+        gap: 3rem;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+
     }
 }
