@@ -93,12 +93,16 @@
     justify-content: center;
 }
 
+.blog-card h2 {
+    font-family: 'Abril Fatface';
+    font-size: 2rem;   
+}
+
 .article-container {
     display: flex;
     flex-direction: row;
     gap: 8rem;
     justify-content: center;
-    margin-top: 4rem;
 }
 
 article {
@@ -124,8 +128,20 @@ article h4 a{
     text-decoration: none;
 }
 
-.blog-card h3 {
+article h4 a:hover{ 
+    text-decoration: underline;
+    color: #001a69;
+}
+
+.blog-card h3 a {
     text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.blog-card h3 a:hover{
+    color: #001a69;
+    text-decoration: underline;
 }
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
