@@ -74,3 +74,40 @@
 .japanese-text {
     font-family: 'RampartOne';
 }
+
+@media (max-width: 600px){
+    .card {
+        flex-direction: column;
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .card img {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 1rem;
+    }
+
+    .card-content h1 {
+        font-size: 3rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .card-content button {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+}
+
+/* Tablet (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px){
+
+}
+
+/* Desktop (> 1024px) */
+@media (min-width: 1024px){
+
+}
