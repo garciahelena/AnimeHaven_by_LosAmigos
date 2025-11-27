@@ -241,12 +241,49 @@ footer address {
         width: 1.4rem;
     }
 
+    /* Footer */
     footer{
         padding: 2.5rem 5% 2rem;
         gap: 3rem;
         flex-direction: row;
         justify-content: space-around;
         text-align: left;
+    }
 
+    .footer-section:first-child{
+        padding-top: 0;
+        gap:1rem;
+    }
+
+    .footer-section:first-child ul{
+        gap:0.8rem;
+    }
+    .footer-section:first-child ul li a{
+        font-size: 0.9rem;
+    }
+    .footer-section:last-of-type{
+        align-items:flex-start;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    footer img{
+        height:2.5rem;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+
+    footer address{
+        font-size:0.75rem;
+        line-height: 1.5;
+    }
+
+    /*Copyright*/
+    #copyright{
+        font-size:0.75rem;
+        margin-top:1.5rem;
+        padding-top:0.8rem;
     }
 }
