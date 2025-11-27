@@ -206,10 +206,27 @@ footer address {
 
 /* Tablet (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px){
+    nav {
+        padding: 1rem 3vw;
+        gap: 1rem;
+    }
+    
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.5em 1em;
+        margin: 0;
+    }
 
-}
+    .logo img {
+        height: 2rem;
+    }
+    
+    .search-container input[type="text"] {
+        font-size: 0.9rem;
+        padding: 0.3em 0.6em;
+    }
 
-/* Desktop (> 1024px) */
-@media (min-width: 1024px){
-
-}
+    .search-container button img{
+        height: 1.4rem;
+        width: 1.4rem;
+    }

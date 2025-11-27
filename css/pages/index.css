@@ -104,10 +104,27 @@
 
 /* Tablet (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px){
+    .card {
+        width: 85%;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
 
-}
+    .card img {
+        max-width: 50%;
+        margin: 1rem;
+    }
 
-/* Desktop (> 1024px) */
-@media (min-width: 1024px){
+    .card-content h1 {
+        font-size: 4rem;
+    }
 
+    .card-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-content button {
+        font-size: 1.7rem;
+        padding: 0.4em 0.7em;
+    }
 }
