@@ -84,40 +84,48 @@
     gap: 2rem;
     background-color: #FFD005;
     margin: auto;
-    width: 90%;
-    border: solid, #FFD005;
+    width: 65%;
+    border: solid #FFD005;
     border-radius: 2rem;
     align-items: center;
     text-decoration: none;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: center;
 }
 
-article-container {
+.article-container {
     display: flex;
     flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+    margin-top: 4rem;
 }
 
 article {
     justify-content: center;
-    max-width: 30vw;
+    width: 40%;
     text-align: center;
+    border: solid 4px;
 }
 
 article img{
-    width: 30vw;
-    height: auto;
-    margin: 2rem;
+    border-bottom: solid 4px;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
     object-fit: cover;
+    margin: 2rem auto;
+    display: block;
+    margin-top: 0;
 }
 
 article h4 a{
     color: black;
+    text-decoration: none;
 }
 
 .blog-card h3 {
-    display: flex;
-    flex-wrap: flex;
+    text-align: center;
 }
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
