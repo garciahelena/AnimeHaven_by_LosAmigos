@@ -177,6 +177,7 @@ footer address {
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
+    /* Nav bar */
     nav {
         flex-wrap: wrap;
         padding: 1rem;
@@ -206,6 +207,7 @@ footer address {
 
 /* Tablet (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px){
+    /* Nav bar */
     nav {
         padding: 1rem 3vw;
         gap: 1rem;
