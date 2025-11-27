@@ -56,6 +56,10 @@
     font-weight: bold;
 }
 
+.card-content button:hover {
+    background-color: #cc0000;
+}
+
 .card-content a {
     text-decoration: none;
 }
