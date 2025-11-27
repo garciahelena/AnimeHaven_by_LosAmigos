@@ -79,6 +79,46 @@
     font-family: 'RampartOne';
 }
 
+.blog-card {
+    display: flex;
+    gap: 2rem;
+    background-color: #FFD005;
+    margin: auto;
+    width: 90%;
+    border: solid, #FFD005;
+    border-radius: 2rem;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article-container {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    justify-content: center;
+    max-width: 30vw;
+    text-align: center;
+}
+
+article img{
+    width: 30vw;
+    height: auto;
+    margin: 2rem;
+    object-fit: cover;
+}
+
+article h4 a{
+    color: black;
+}
+
+.blog-card h3 {
+    display: flex;
+    flex-wrap: flex;
+}
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
