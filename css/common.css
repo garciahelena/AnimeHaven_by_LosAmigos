@@ -46,6 +46,10 @@ nav a {
     gap: 4rem;
 }
 
+nav a:hover {
+    color: blue;
+}
+
 /* Search in Navagation Bar */
 .search-container {
     display: flex;
