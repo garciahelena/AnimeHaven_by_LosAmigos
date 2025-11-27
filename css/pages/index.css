@@ -75,6 +75,8 @@
     font-family: 'RampartOne';
 }
 
+/* ========== RESPONSIVE DESIGN ========== */
+/* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
     .card {
         flex-direction: column;

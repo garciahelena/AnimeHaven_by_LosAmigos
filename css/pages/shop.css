@@ -1,4 +1,7 @@
 h3 {
+    display: block;
+    width: 100%;
+    margin: 0;
     background-color: #FFDCBA;
     text-align: center;
     font-family: 'Aclonica';
@@ -54,4 +57,40 @@ h4 {
 a{
     text-decoration: none;
     color: black;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+/* Mobile (0 - 600px) */ 
+@media (max-width: 600px) {
+
+}
+
+/* Tablet (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px){
+    h3 {
+        font-size: 1.6rem;
+        padding: 0.8rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-left: 2rem;
+    }
+
+    .shop-categories {
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shop-categories img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .shop-categories h5 {
+        font-size: 1rem;
+        padding: 0.7rem;
+        max-width: 20vw;;
+    }
 }
