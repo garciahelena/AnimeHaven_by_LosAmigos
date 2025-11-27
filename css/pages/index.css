@@ -81,27 +81,30 @@
 
 .blog-card {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     background-color: #FFD005;
     margin: auto;
     width: 65%;
-    border: solid #FFD005;
+    border: solid 4px #FFD005;
     border-radius: 2rem;
-    align-items: center;
     text-decoration: none;
-    flex-direction: column;
-    justify-content: center;
+    padding: 1rem;
 }
 
 .blog-card h2 {
     font-family: 'Abril Fatface';
     font-size: 2rem;   
+    text-align: center;
 }
 
 .article-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 8rem;
+    gap: 4rem;
     justify-content: center;
 }
 
@@ -143,6 +146,7 @@ article h4 a:hover{
     color: #001a69;
     text-decoration: underline;
 }
+
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px){
@@ -169,6 +173,34 @@ article h4 a:hover{
     .card-content button {
         font-size: 1.5rem;
         margin: 1rem auto;
+    }
+
+
+    .blog-card h2{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .article-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    article {
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    article img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .blog-card h3 a {
+        font-size: 1rem;
     }
 }
 
@@ -197,4 +229,14 @@ article h4 a:hover{
         font-size: 1.7rem;
         padding: 0.4em 0.7em;
     }
+
+    .article-container {
+        gap: 2rem; /* reduce gap */
+    }
+
+    article {
+        width: 45%; /* smaller width on tablet */
+    }
+}
+
 }
