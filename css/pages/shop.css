@@ -62,12 +62,50 @@ a{
 /* ========== RESPONSIVE DESIGN ========== */
 /* Mobile (0 - 600px) */ 
 @media (max-width: 600px) {
+    h3 {
+        font-size: 1.4rem;
+        padding: 0.8rem;
+        width: 100%;
+    }
 
+    h4 {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .shop-categories {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .shop-categories a {
+        width: 40%;
+        text-align: center;
+    }
+
+    .shop-categories img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .shop-categories h5 {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .image-banner img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }
 
 /* Tablet (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px){
     h3 {
+        width: 100%;
+        justify-content: center;
         font-size: 1.6rem;
         padding: 0.8rem;
     }
