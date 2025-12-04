@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/pages/contact.css">
+
+    <!--JavaScript-->
+    <script src="../js/contact.js" defer></script>
+
+
 </head>
 
 <body>
@@ -34,35 +39,36 @@
         <p>If you have any questions, or would like personalized anime recommendations, feel free to contact us below!
         </p>
 
-        <form action="#" method="post" class="contact-form">
+        <form class="contact-form" onsubmit="validateForm(event)">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required>
 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-            <form class="contact-form">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
 
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <label for="contact-method">Preferred Contact Method</label>
+            <select id="contact-method" name="contact-method" onchange="togglePhoneField()">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="none">None</option>
+            </select>
 
-                <div class="form-group">
-                    <label for="contact-method">Preferred Contact Method</label> <br>
-                    <select id="contact-method" name="contact-method">
-                        <option value="email">Email</option>
-                        <option value="phone">Phone</option>
-                        <option value="none">None</option>
-                    </select>
-<br><br>
-                    <button type="submit">Send Message</button>
+            <div id="phone-field" style="display:none;">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Your Phone Number">
+            </div>
 
-                </div>
-            </form>
+            <button type="submit">Send Message</button>
+        </form>
 
-            <br><br><br>
+
+        <br><br><br>
     </main>
 
     <!-- Footer -->
